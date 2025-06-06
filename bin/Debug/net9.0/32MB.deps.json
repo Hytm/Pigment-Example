@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "32MB/1.0.0": {
+        "dependencies": {
+          "Aerospike.Client": "8.0.2"
+        },
+        "runtime": {
+          "32MB.dll": {}
+        }
+      },
+      "Aerospike.Client/8.0.2": {
+        "dependencies": {
+          "NeoLua": "1.3.14"
+        },
+        "runtime": {
+          "lib/net6.0/AerospikeClient.dll": {
+            "assemblyVersion": "8.0.2.0",
+            "fileVersion": "8.0.2.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.5.0": {},
+      "NeoLua/1.3.14": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0"
+        },
+        "runtime": {
+          "lib/net5.0/Neo.Lua.dll": {
+            "assemblyVersion": "5.3.0.0",
+            "fileVersion": "1.3.14.0"
+          }
+        },
+        "resources": {
+          "lib/net5.0/de/Neo.Lua.resources.dll": {
+            "locale": "de"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "32MB/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aerospike.Client/8.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MbBceT2l2V9121r4wYBDAG+sjuW59MpeSCqu4AQi/UL2lUlJrenEV9NH888ikPvEoL2iNEN4fRN0VOt913U9Tg==",
+      "path": "aerospike.client/8.0.2",
+      "hashPath": "aerospike.client.8.0.2.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+      "path": "microsoft.csharp/4.5.0",
+      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+    },
+    "NeoLua/1.3.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BXIUN+ePY2wx3ZGiSmR8KZKD85s01pXI690orrB3u/biB8R0nalziGw+iGbPBq1Cuz8Upggpw2ERF84POXWTCQ==",
+      "path": "neolua/1.3.14",
+      "hashPath": "neolua.1.3.14.nupkg.sha512"
+    }
+  }
+}
