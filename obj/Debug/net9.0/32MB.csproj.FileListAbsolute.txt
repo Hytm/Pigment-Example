@@ -17,3 +17,4 @@
 /home/nico/work/32MB/obj/Debug/net9.0/32MB.pdb
 /home/nico/work/32MB/obj/Debug/net9.0/32MB.genruntimeconfig.cache
 /home/nico/work/32MB/obj/Debug/net9.0/ref/32MB.dll
+/home/nico/work/32MB/obj/Debug/net9.0/32MB.sourcelink.json
